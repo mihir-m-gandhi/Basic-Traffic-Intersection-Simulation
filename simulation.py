@@ -28,8 +28,6 @@ directionNumbers = {0:'right', 1:'down', 2:'left', 3:'up'}
 # Coordinates of signal image, timer, and vehicle count
 signalCoods = [(530,230),(810,230),(810,570),(530,570)]
 signalTimerCoods = [(530,210),(810,210),(810,550),(530,550)]
-vehicleCountCoods = [(480,210),(880,210),(880,550),(480,550)]
-vehicleCountTexts = ["0", "0", "0", "0"]
 
 # Coordinates of stop lines
 stopLines = {'right': 590, 'down': 330, 'left': 800, 'up': 535}
@@ -137,7 +135,6 @@ def repeat():
         updateValues()
         time.sleep(1)
     currentYellow = 1   # set yellow signal on
-    vehicleCountTexts[currentGreen] = "0"
     # reset stop coordinates of lanes and vehicles 
     for i in range(0,3):
         for vehicle in vehicles[directionNumbers[currentGreen]][i]:
@@ -239,7 +236,7 @@ class Main:
                 screen.blit(redSignal, signalCoods[i])
         signalTexts = ["","","",""]
 
-        # display signal timer and vehicle count
+        # display signal timer
         for i in range(0,noOfSignals):  
             signalTexts[i] = font.render(str(signals[i].signalText), True, white, black)
             screen.blit(signalTexts[i],signalTimerCoods[i])
