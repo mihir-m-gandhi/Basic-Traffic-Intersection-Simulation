@@ -1,5 +1,5 @@
 <p align="center">
- <img height=200px src="./simulation-output.png" alt="Traffic Signal Timer">
+ <img height=300px src="./simulation-output.png" alt="Traffic Signal Timer">
 </p>
 
 <h1 align="center">Basic Traffic Intersection Simulation</h1>
@@ -27,7 +27,7 @@ The video below shows the final output of the simulation.
 ### Demo
 
 <p align="center">
-    <img src="./Demo.gif">
+    <img height="400px" src="./Demo.gif">
 </p>
 
 ------------------------------------------
