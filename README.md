@@ -9,7 +9,7 @@
 [![Python version](https://img.shields.io/badge/python-3.1+-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-<h4>A simulation developed from scratch using [Pygame](https://www.pygame.org/news) to simulate the movement of vehicles across a traffic intersection having traffic lights with a timer.</h4>
+<h4>A simulation developed from scratch using Pygame to simulate the movement of vehicles across a traffic intersection having traffic lights with a timer.</h4>
 
 </div>
 
@@ -27,7 +27,7 @@ The video below shows the final output of the simulation.
 ### Demo
 
 <p align="center">
-    <img height="600px" src="./Demo.gif">
+    <img src="./Demo.gif">
 </p>
 
 ------------------------------------------
