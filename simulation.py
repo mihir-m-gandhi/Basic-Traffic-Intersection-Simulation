@@ -172,14 +172,14 @@ def generateVehicles():
         lane_number = random.randint(1,2)
         temp = random.randint(0,99)
         direction_number = 0
-        a = [25,50,75,100]
-        if(temp<a[0]):
+        dist = [25,50,75,100]
+        if(temp<dist[0]):
             direction_number = 0
-        elif(temp<a[1]):
+        elif(temp<dist[1]):
             direction_number = 1
-        elif(temp<a[2]):
+        elif(temp<dist[2]):
             direction_number = 2
-        elif(temp<a[3]):
+        elif(temp<dist[3]):
             direction_number = 3
         Vehicle(lane_number, vehicleTypes[vehicle_type], direction_number, directionNumbers[direction_number])
         time.sleep(1)
