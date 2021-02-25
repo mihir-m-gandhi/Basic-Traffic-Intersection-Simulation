@@ -185,9 +185,9 @@ def generateVehicles():
         time.sleep(1)
 
 class Main:
-    thread2 = threading.Thread(name="initialization",target=initialize, args=())    # initialization
-    thread2.daemon = True
-    thread2.start()
+    thread1 = threading.Thread(name="initialization",target=initialize, args=())    # initialization
+    thread1.daemon = True
+    thread1.start()
 
     # Colours 
     black = (0, 0, 0)
@@ -210,9 +210,9 @@ class Main:
     greenSignal = pygame.image.load('images/signals/green.png')
     font = pygame.font.Font(None, 30)
 
-    thread3 = threading.Thread(name="generateVehicles",target=generateVehicles, args=())    # Generating vehicles
-    thread3.daemon = True
-    thread3.start()
+    thread2 = threading.Thread(name="generateVehicles",target=generateVehicles, args=())    # Generating vehicles
+    thread2.daemon = True
+    thread2.start()
 
     while True:
         for event in pygame.event.get():
