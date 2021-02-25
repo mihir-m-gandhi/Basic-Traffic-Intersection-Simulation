@@ -27,7 +27,7 @@ The video below shows the final output of the simulation.
 ### Demo
 
 <p align="center">
-    <img height="500px" src="./Demo.gif">
+    <img height="600px" src="./Demo.gif">
 </p>
 
 ------------------------------------------
