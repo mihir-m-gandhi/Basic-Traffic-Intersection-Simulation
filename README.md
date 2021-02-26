@@ -21,10 +21,12 @@
 * Vehicles such as cars, bikes, buses, and trucks are generated, and their movement is controlled according to the signals and the vehicles around them. 
 * This simulation can be further used for data analysis or to visualize AI or ML applications. 
 
-The video below shows the final output of the simulation.
+Find a step-by-step guide to build this simulation [here](https://towardsdatascience.com/traffic-intersection-simulation-using-pygame-689d6bd7687a).
 
 ------------------------------------------
 ### Demo
+
+The video below shows the final output of the simulation.
 
 <p align="center">
     <img src="./Demo.gif">
