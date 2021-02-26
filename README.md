@@ -1,5 +1,5 @@
 <p align="center">
- <img height=350px src="./simulation-output.png" alt="Traffic Signal Timer">
+ <img height=350px src="./simulation-output.png" alt="Simulation output">
 </p>
 
 <h1 align="center">Basic Traffic Intersection Simulation</h1>
