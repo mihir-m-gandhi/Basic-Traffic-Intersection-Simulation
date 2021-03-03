@@ -42,7 +42,7 @@ The video below shows the final output of the simulation.
 
  * Step I: Clone the Repository
 ```sh
-      $ git clone https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
+      $ git clone https://github.com/mihir-m-gandhi/Basic-Traffic-Intersection-Simulation
 ```
   * Step II: Install the required packages
 ```sh
